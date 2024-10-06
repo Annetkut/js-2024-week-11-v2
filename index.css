@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #c44cca, #444);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: white;
+}
+
+div {
+    text-align: center;
+    /* Центрирует текст внутри div */
+}
+
+input[type="text"] {
+    border: none;
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    font-size: 14px;
+    background-color: #f98bff;
+    color: #222;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: decimal;
+    /* Номера внутри элемента списка */
+    list-style-position: inside;
+    padding: 0;
+}
+
+li {
+    margin: 15px;
+    padding: 2px;
+    color: white;
+}
+
+/* Стиль для выполненной задачи */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
